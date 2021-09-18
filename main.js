@@ -15,7 +15,7 @@ function draw() {
     classifier.classify(video, gotResult);
 }
 
-function gotResul(error, results) {
+function gotResult(error, results) {
     if (error) {
         console.error(error);
     } else {
